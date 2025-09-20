@@ -172,12 +172,17 @@ Systematic feed trials validated four scenarios replacing conventional ingredien
 | D: BSF + Azolla | 120 kg/ton defatted | 10% | 35% | Maximum cost reduction |
 
 ```mermaid
-bar
-    title Feed Cost Savings by Scenario
-    x-axis [Scenario A, Scenario B, Scenario C, Scenario D]
-    y-axis "Cost Reduction %" 0 --> 40
+graph LR
+    A[Scenario A<br/>21% Savings] --> E[Feed Cost Reductions]
+    B[Scenario B<br/>23% Savings] --> E
+    C[Scenario C<br/>25% Savings] --> E
+    D[Scenario D<br/>35% Savings] --> E
     
-    "Cost Savings" [21, 23, 25, 35]
+    style A fill:#ffcccc
+    style B fill:#ffffcc
+    style C fill:#ccffcc
+    style D fill:#ccffff
+    style E fill:#90EE90
 ```
 
 Scenario A incorporated 80 kg per ton of full-fat BSF meal, eliminating the need for vegetable oil while maintaining nutritional balance. This approach achieved 21% cost reduction compared to the reference diet. Scenario B used 120 kg per ton of defatted BSF meal with minimal vegetable oil, allowing higher protein inclusion without excess fat and generating 23% cost savings.
