@@ -1,4 +1,4 @@
-graph TD
+
     A[Feed Crisis: 300-400% Cost Increase] --> B[Feddan Integrated Solution]
     B --> C[BSF Production]
     B --> D[Azolla Cultivation]
