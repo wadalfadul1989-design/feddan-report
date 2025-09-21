@@ -99,32 +99,20 @@ Implementation followed four sequential phases designed to build evidence progre
 ## IMPLEMENTATION TIMELINE
 
 ```mermaid
-timeline
-    title Implementation Timeline
+graph LR
+    A[Inception Phase] --> B[Experimental Phase]
+    B --> C[Construction Phase]
+    C --> D[Production Phase]
     
-    section Inception Phase
-        : Stakeholder engagement
-        : Market validation
-        : Resource inventory
-        : 35-participant workshop
+    A1[Stakeholder engagement<br/>Market validation<br/>Resource inventory<br/>35-participant workshop] --> A
+    B1[BSF production trials<br/>Azolla cultivation testing<br/>Feed formulation trials<br/>Performance validation] --> B
+    C1[Infrastructure development<br/>Equipment installation<br/>System integration<br/>Quality control setup] --> C
+    D1[3-month operation<br/>Performance monitoring<br/>Economic analysis<br/>Training delivery] --> D
     
-    section Experimental Phase  
-        : BSF production trials
-        : Azolla cultivation testing
-        : Feed formulation trials
-        : Performance validation
-    
-    section Construction Phase
-        : Infrastructure development
-        : Equipment installation
-        : System integration
-        : Quality control setup
-    
-    section Production Phase
-        : 3-month operation
-        : Performance monitoring
-        : Economic analysis
-        : Training delivery
+    style A fill:#e1f5fe
+    style B fill:#fff3e0
+    style C fill:#e8f5e8
+    style D fill:#f3e5f5
 ```
 
 ---
